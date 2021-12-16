@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hjem | Cafe Kræs</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+  <!-- Nav Section -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav_wrapper">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo.svg" alt="Café Kræs">
+        </a>
+        <nav>
+          <div class="nav_icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav_bgOverlay"></div>
+          <ul class="nav_list">
+            <div class="nav_close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav_list_wrapper">
+
+              <li><a class="nav_link" href="./index.html">Hjem</a></li>
+              <li><a class="nav_link" href="./menu.html">Menu</a></li>
+              <li><a class="nav_link" href="./about.html">Om os</a></li>
+              <li><a class="nav_link" href="./contact.html">kontakt</a></li>
+              <li><a href="./booking.html" class="btn primary-btn">Reserver</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- End Nav Section -->
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero_wrapper">
+        <div class="hero_left" >
+          <div class="hero_left_wrapper">
+
+            <h1 class="hero_heading">God tid hos Kræs</h1>
+            <p class="hero_info">
+              For en smagfuld og god oplevelse hos Café Kræs
+            </p>
+            <div class="button_wrapper">
+              <a href="./menu.html" class="btn primary-btn">Udforsk Menu</a>
+              <a href="./booking.html" class="btn">Reserver Bord</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero_right">
+          <div class="hero_imgWrapper">
+            <img src="./images/heroImg.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+  <!-- Store Info Section -->
+  <section id="storeInfo" >
+    <div class="container">
+      <div class="storeInfo_wrapper">
+        <div class="storeInfo_item">
+          <div class="storeInfo_icon">
+            <img src="./images/wall-clock-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo_title">
+            9 - 22
+          </h3>
+          <p class="storeInfo_text">
+            Åbningstider
+          </p>
+        </div>
+        <div class="storeInfo_item">
+          <div class="storeInfo_icon">
+            <img src="./images/address-icon.svg" alt="Address icon">
+          </div>
+          <h3 class="storeInfo_title">
+            Kirketorvet 8, 8900 Randers C
+          </h3>
+          <p class="storeInfo_text">
+            Address
+          </p>
+        </div>
+        <div class="storeInfo_item">
+          <div class="storeInfo_icon">
+            <img src="./images/phone-icon.svg" alt="Phone icon">
+          </div>
+          <h3 class="storeInfo_title">
+            +86 43 63 55
+          </h3>
+          <p class="storeInfo_text">
+            Ring nu
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Store Info Section -->
+  <!-- Recommended Dishes -->
+  <section id="dishGrid" >
+    <div class="container">
+      <h2 class="dishGrid_title">
+        Anbefalet retter
+      </h2>
+      <div class="dishGrid_wrapper">
+        <div class="dishGrid_item">
+          <div class="dishGrid_item_img">
+            <img src="./images/food-1.png" alt="food img">
+          </div>
+          <div class="dishGrid_item_info">
+            <h3 class="dishGrid_item_title">
+              Brunch
+            </h3>
+            <h3 class="dishGrid_item_price">80 kr</h3>
+            <div class="dishGrid_item_stars">
+              <img src="./images/3star.png" alt="3 star">
+            </div>
+          </div>
+        </div>
+        <div class="dishGrid_item">
+          <div class="dishGrid_item_img">
+            <img src="./images/food-2.png" alt="food img">
+          </div>
+          <div class="dishGrid_item_info">
+            <h3 class="dishGrid_item_title">
+              Okseburger
+            </h3>
+            <h3 class="dishGrid_item_price">90 kr</h3>
+            <div class="dishGrid_item_stars">
+              <img src="./images/3star.png" alt="3 star">
+            </div>
+          </div>
+        </div>
+        <div class="dishGrid_item">
+          <div class="dishGrid_item_img">
+            <img src="./images/food-7.png" alt="kaffekag img">
+          </div>
+          <div class="dishGrid_item_info">
+            <h3 class="dishGrid_item_title">
+              KaffeKage
+            </h3>
+            <h3 class="dishGrid_item_price">65 Kr</h3>
+            <div class="dishGrid_item_stars">
+              <img src="./images/3star.png" alt="3 star">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Recommended Dishes -->
+  <!-- Events Info -->
+  <section id="eventsInfo" >
+    <div class="container">
+      <div class="eventsInfo_wrapper">
+        <div class="eventsInfo_left">
+          <div class="eventsInfo_item">
+            <div class="eventsInfo_item_img">
+              <img src="./images/event-corporate.png" alt="corporate events">
+            </div>
+            <div class="eventsInfo_item_info">
+              <h2 class="eventsInfo_item_title">Firma Arrangementer</h2>
+              <p class="eventsInfo_item_text">
+                Café Kræs er det perfekte sted til firma arrangementer.
+              </p>
+            </div>
+          </div>
+          <div class="eventsInfo_item">
+            <div class="eventsInfo_item_img">
+              <img src="./images/event-birthday.png" alt="birthday events">
+            </div>
+            <div class="eventsInfo_item_info">
+              <h2 class="eventsInfo_item_title">Fødselsdage og Konfirmationer</h2>
+              <p class="eventsInfo_item_text">
+                Café Kræs tilbyder en intim og særlig oplevelse for specielle dage så som fødselsdage og konfirmationer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="eventsInfo_right">
+          <h2 class="eventsInfo_title">Book Nu</h2>
+          <p class="eventsInfo_text">Book for dine private fester og arrangementer hos Café Kræs og få en unik oplevelse</p>
+          <a href="./contact.html" class="btn primary-btn">kontakt</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Events Info -->
+  <!-- Newsletter Section -->
+  <section id="newsletter" >
+    <div class="container">
+      <div class="newsletter_wrapper">
+        <div class="newsletter_info">
+          <h3 class="newsletter_title">Tilmeld dig Nyhedsbrev</h3>
+          <p class="newsletter_text">
+            Bliv opdateret med de sidste nyheder fra “Cafë Kræs”
+          </p>
+        </div>
+        <div class="newsletter_form">
+          <form action="">
+            <label for="email">
+              <input type="email" placeholder="Din Email Address">
+            </label>
+            <button type="submit">Tilmeld dig</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Newsletter Section -->
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer_wrapper">
+      <div class="footer_col1">
+        <div class="footer_logo">
+          <img src="./images/logo.svg" alt="Café Kræs">
+        </div>
+        <p class="footer_desc">
+          Fresk og lækker traditionel mad for hele familien.
+        </p>
+        <div class="footer_socials">
+          <h4 class="footer_socials_title">Følg os</h4>
+          <ol class="footer_socials_list">
+            <li>
+              <a href="https://www.facebook.com/CafeKraes/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-facebook">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                </svg>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="footer_col2">
+        <h3 class="footer_text_title">
+          Links
+        </h3>
+        <ol class="footer_text">
+          <li>
+            <a href="/index.html">Hjem</a>
+          </li>
+          <li>
+            <a href="./menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="./booking.html">Reserver Bord</a>
+          </li>
+          <li>
+            <a href="./about.html">Om Os</a>
+          </li>
+          <li>
+            <a href="./contact.html">Kontakt os</a>
+          </li>
+        </ol>
+      </div>
+      <div class="footer_col3">
+        <h3 class="footer_text_title">
+          Support
+        </h3>
+        <ol class="footer_text">
+          <li>
+            <a href="#">kontakt</a>
+          </li>
+        </ol>
+      </div>
+      <div class="footer_col4">
+        <h3 class="footer_text_title">
+          kontakt
+        </h3>
+        <ol class="footer_text">
+          <li>
+            <a href="#">+86 43 63 55</a>
+          </li>
+          <li>
+            <a href="#">info@Kræs</a>
+          </li>
+          <li>
+            <a href="#">Kirketorvet 8, 8900 Randers</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
+  <!-- custom script -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
